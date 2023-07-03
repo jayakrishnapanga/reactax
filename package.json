@@ -1,0 +1,31 @@
+{
+  "name": "taxdemo",
+  "version": "1.0.0",
+  "description": "my first experiences and learn of react",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayakrishnapanga/reactax.git"
+  },
+  "author": "jk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayakrishnapanga/reactax/issues"
+  },
+  "homepage": "https://github.com/jayakrishnapanga/reactax#readme",
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
